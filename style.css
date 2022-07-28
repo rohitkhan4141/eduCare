@@ -3,13 +3,14 @@ font link
 ------------*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@100;200;600&display=swap");
 
-/* --------
+/* ----------------
 Header font styles
-------------*/
+-------------------*/
 
 body {
   font-family: "Poppins", sans-serif;
 }
+
 .nav-item a {
   font-weight: 500;
   font-size: 18px;
@@ -21,9 +22,9 @@ body {
   border-radius: 10px;
   overflow: hidden;
 }
-/* --------
+/* ---------------
 For image overlay
-------------*/
+------------------*/
 .dark::after {
   content: "";
   display: block;
@@ -46,10 +47,13 @@ For image overlay
   font-size: 65px;
   line-height: 85px;
 }
+.border-secondary {
+  border: 1px solid rgba(175, 174, 174, 0.247) !important;
+}
 
-/* --------
+/* -------------------------------------
 Media queries for just fonts and carousel
-------------*/
+-----------------------------------------*/
 
 @media only screen and (max-width: 767px) and (min-width: 350px) {
   .carousel-item img {
