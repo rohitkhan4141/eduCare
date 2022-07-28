@@ -57,7 +57,7 @@ Media queries for just fonts and carousel
     object-fit: cover;
   }
   .carousel-caption {
-    bottom: 25px;
+    bottom: -13px;
   }
   .carousel-caption h1 {
     font-size: 45px;
